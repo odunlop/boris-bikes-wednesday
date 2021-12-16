@@ -28,20 +28,3 @@ describe DockingStation do
       end
     end
   end
-
-# As a member of the public,
-# So that I am not confused and charged unnecessarily,
-# I'd like docking stations not to release bikes when there are none available.
-# if there are no bikes
-# error message = 'There are no bikes'
-
-#   it 'does not release a bike when there are none avaliable' do
-#     expect { raise StandardError, "There are no bikes avaliable"}.to
-# RAISE/FAIL ERROR
-# describe "matching error message with string" do
-#   it "matches the error message" do
-#     expect { raise StandardError, 'this message exactly'}.
-#       to raise_error('this message exactly')
-#   end
-# end
-
